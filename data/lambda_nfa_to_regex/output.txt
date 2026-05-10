@@ -1,0 +1,4 @@
+====================
+EXPRESIE REGULATA ECHIVALENTA
+====================
+a*bb*

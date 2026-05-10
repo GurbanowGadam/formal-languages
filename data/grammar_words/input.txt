@@ -1,0 +1,9 @@
+S A
+a b
+4
+S aA
+S b
+A aA
+A λ
+S
+3

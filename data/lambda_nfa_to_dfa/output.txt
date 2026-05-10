@@ -1,0 +1,48 @@
+====================
+DFA ECHIVALENT
+====================
+States:
+q0_q1 q1 q2 EMPTY
+Alphabet:
+a b
+Initial state:
+q0_q1
+Final states:
+q2
+State subsets:
+q0_q1 = {q0,q1}
+q1 = {q1}
+q2 = {q2}
+EMPTY = {}
+Transitions:
+q0_q1 q1 a
+q0_q1 q2 b
+q1 q1 a
+q1 q2 b
+q2 EMPTY a
+q2 q2 b
+EMPTY EMPTY a
+EMPTY EMPTY b
+
+====================
+DFA MINIM
+====================
+States:
+M0 M1 M2
+Alphabet:
+a b
+Initial state:
+M0
+Final states:
+M1
+State groups:
+M0 = q0_q1 q1
+M1 = q2
+M2 = EMPTY
+Transitions:
+M0 M0 a
+M0 M1 b
+M1 M2 a
+M1 M1 b
+M2 M2 a
+M2 M2 b

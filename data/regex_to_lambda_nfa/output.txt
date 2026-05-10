@@ -1,0 +1,24 @@
+====================
+λ-NFA ECHIVALENT
+====================
+States:
+q0 q1 q2 q3 q4 q5 q6 q7 q8 q9
+Alphabet:
+a b c
+Initial state:
+q0
+Final state:
+q9
+Transitions:
+q0 q1 a
+q2 q3 b
+q4 q5 c
+q6 q2 λ
+q6 q4 λ
+q3 q7 λ
+q5 q7 λ
+q8 q6 λ
+q8 q9 λ
+q7 q6 λ
+q7 q9 λ
+q1 q8 λ
