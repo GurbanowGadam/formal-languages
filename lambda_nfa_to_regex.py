@@ -282,9 +282,6 @@ def main():
     elif len(sys.argv) == 3:
         input_path = sys.argv[1]
         output_path = sys.argv[2]
-    else:
-        print("Usage: python3 lambda_nfa_to_regex.py [input_path output_path]")
-        return
 
     input_text = read_text_file(input_path)
     output_text = solve(input_text)
